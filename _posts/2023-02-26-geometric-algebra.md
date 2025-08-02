@@ -49,7 +49,12 @@ $$
 
 Besides distributivity, the only assumption about the product is that for two vectors it should only depend on the relative angle between them, not on the absolute angles of the vectors themselves. In other words: **The product should stay invariant under rotations of the coordinate system.**
 
-Let us now consider for example the product of a unit vector \\( \mathbf{\hat{u}} \\) with itself: We could choose \\( \mathbf{\hat{u}} \\) to point (i) along the x-axis or (ii) somewhere between x and y-axis or (iii) along the y-axis. Calculating the three products and requiring them to be equal yields:
+Let us now consider for example the product of a unit vector \\( \mathbf{\hat{u}} \\) with itself: We could choose \\( \mathbf{\hat{u}} \\) to point:
+1. along the x-axis: \\( \mathbf{\hat{u}} = \mathbf{e_x} \\)
+2. somewhere between x and y-axis: \\( \mathbf{\hat{u}} = u_1\mathbf{e_x} + u_2\mathbf{e_y} \\)
+3. along the y-axis: \\( \mathbf{\hat{u}} = \mathbf{e_y} \\)
+
+Calculating the three products and requiring them to be equal yields:
 
 $$
   \mathbf{e_x}\mathbf{e_x} \overset{!}{=} u_1^2 \mathbf{e_x}\mathbf{e_x} + u_1u_2 \mathbf{e_x}\mathbf{e_y} + u_2u_1\mathbf{e_y}\mathbf{e_x} + u_2^2 \mathbf{e_y}\mathbf{e_y} \overset{!}{=} \mathbf{e_y}\mathbf{e_y}
