@@ -25,6 +25,8 @@ We will then derive a set of rules that define something named [geometric algebr
 
 ## Part 1: Rotational Invariance
 
+What is the product \\( \mathbf{ab} \\ of two vectors \\( \mathbf{a} \\ and \\( \mathbf{b} \\?
+
 Starting in two dimensions, any vector \\( \mathbf{a} \\) can be written as combination of the two basis vectors \\( \mathbf{e_x} \\) and \\( \mathbf{e_y} \\):
 
 $$
