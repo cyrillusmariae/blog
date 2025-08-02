@@ -13,7 +13,7 @@ We will then derive a set of rules that define something named [geometric algebr
 
 ### Table of contents
 
-- [Rotational invariance](#part-1-rotational-invariance)
+- [Vector Multiplication](#part-1-vector-multiplication)
 - [Geometric Algebra](#part-2-geometric-algebra)
 - [Three dimensions](#part-3-three-dimensions)
    - [Quaternions](#quaternions)
@@ -23,9 +23,7 @@ We will then derive a set of rules that define something named [geometric algebr
 - [Matrix representations](#part-6-matrix-representations)
 - [Summary](#summary)
 
-## Part 1: Rotational Invariance
-
-What is the product \\( \mathbf{ab} \\) of two vectors \\( \mathbf{a} \\) and \\( \mathbf{b} \\)?
+## Part 1: Vector Multiplication
 
 Starting in two dimensions, any vector \\( \mathbf{a} \\) can be written as combination of the two basis vectors \\( \mathbf{e_x} \\) and \\( \mathbf{e_y} \\):
 
@@ -33,7 +31,7 @@ $$
   \mathbf{a} = \begin{pmatrix}a_1\\a_2\end{pmatrix} = a_1\begin{pmatrix}1\\0\end{pmatrix} + a_2\begin{pmatrix}0\\1\end{pmatrix} =: a_1 \mathbf{e_x}+a_2 \mathbf{e_y}
 $$
 
-One fundamental property associated with multiplication is [distributivity](https://en.wikipedia.org/wiki/Distributive_property) over addition:
+What is the product \\( \mathbf{ab} \\) of two vectors \\( \mathbf{a} \\) and \\( \mathbf{b} \\)? One fundamental property associated with multiplication is [distributivity](https://en.wikipedia.org/wiki/Distributive_property) over addition:
 
 $$
   (\mathbf{a}+\mathbf{b})\mathbf{c} = \mathbf{a}\mathbf{c} + \mathbf{b}\mathbf{c} \qquad \mathbf{c}(\mathbf{a}+\mathbf{b})=\mathbf{c}\mathbf{a}+\mathbf{c}\mathbf{b}
