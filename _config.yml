@@ -8,6 +8,7 @@ show_frame: true
 
 navigation:
   - {file: "index.html"}
+  - {file: "about.md"}
   - {title: Color, icon: moon, url: "javascript:toggle()"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
 
