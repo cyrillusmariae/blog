@@ -8,7 +8,7 @@ This is my personal blog (or "online journal") to share my personal views and my
 
 I write anything that I see and feel. Your comments or feedbacks are always welcome, if any, it should be directed to: chavezpoon@icloud.com.
 
-## About Me
+## Who am I?
 
 My name is Chavez Poon, I am a young Traditionalist Roman Catholic Acolyte and Master of Ceremonies in Hong Kong.
 
